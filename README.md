@@ -7,6 +7,8 @@
 
 - works better for larger number ranges, for small ranges variation is little
 
+- I'm currently working on an algorithm which does not repeat numbers at all
+
 # how it works
 
 - makes a list of all the integers in the given range
