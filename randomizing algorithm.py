@@ -51,7 +51,7 @@ def randomize_list(numlist):
     return randomnum
 
     
-
+'''
 i = 0
 
 randomlist = []
@@ -101,7 +101,8 @@ randomrandomlist = []
 while j <= maxnum-minnum:
 
     randomrandomlist.append(randomize_list(randomlist))
-    j += 1
+    j += 1'''
+j = 0
 
 numtoadd = 44
 
@@ -118,5 +119,5 @@ while True:
     numsinlist += 1
 
 while True:
-    input(randomize_list(randomrandomlist))
+    input(randomize_list(numlist))
     j += 1
