@@ -2,6 +2,7 @@
 
 # this one is good and it works
 
+import time
 import math
 
 # get inputs
@@ -85,15 +86,19 @@ numscalled = ' '
 
 numlist = shuffle_list(shuffle_list(shuffle_list(shuffle_list(shuffle_list(shuffle_list(shuffle_list(numlist)))))))
 
-print(numlist)
+#print(numlist)
 
 counter = 0
 
+
 while True:
-    input(randomize_list(numlist))
+    blah = randomize_list(numlist)
+
+    input(str(blah))
 
     if counter >= 5:
-        numlist = shuffle_list(shuffle_list(shuffle_list(shuffle_list(shuffle_list(shuffle_list(shuffle_list(numlist)))))))
+        numlist = shuffle_list(shuffle_list(shuffle_list(shuffle_list(shuffle_list(shuffle_list(shuffle_list(shuffle_list(numlist))))))))
         counter = 0
+
     counter += 1
     j += 1
