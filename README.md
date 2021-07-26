@@ -9,6 +9,8 @@
 
 - I'm currently working on an algorithm which does not repeat numbers at all
 
+- Open a pull request or issue if you spot any problems
+
 # how it works
 
 - makes a list of all the integers in the given range
