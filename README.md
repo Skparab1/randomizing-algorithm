@@ -19,3 +19,5 @@
   - Now there is another algorithm that I added which shuffles this list by pushing all the numbers down by 1. the last number is moved to the start. every 5 number generations, the program will push the list a few times.
 - picks an algorithm decided number from the list
 
+# Stats
+
