@@ -1,33 +1,60 @@
 # randomizing algorithm
 
-# this one is good
+# this one is good and it works
 
 import math
 
+# get inputs
 minnum = int(input('Enter your min value > '))
 maxnum = int(input('Enter your max value > '))
-numtoadd = 22
 numsum = minnum
+
+# initialize variables
 numstring = ''
-
 numlist = []
-
 i = minnum
 
+# create list of nums
 while i <= maxnum:
     numlist.append(i)
     i += 1
 
-while i <= maxnum:
-    numstring = numstring + ' '+ str(i)
-    i += 1
 
-numstring2 = numstring
+# function that returns amount of numbers in a list
+def lengthoflist(thislist):
 
-numscalled = ' '
+    numsinlist = 0
+    while True:
+        try:
+            blank = thislist[numsinlist]
 
+        except:
+            break
+
+        numsinlist += 1
+    
+    return numsinlist
+
+
+# function that shuffles the list by pushing the numbers down by one and bringing the last one to the start
+def shuffle_list(oldlist):
+
+    num = -1
+    newlist = []
+
+    while num < lengthoflist(oldlist)-1:
+
+        newlist.append(oldlist[num])
+        num += 1
+
+    return newlist
+
+
+# pick a number in the list
 def randomize_list(numlist):
-    global i, numtoadd, numsinlist, numscalled
+    global i, numtoadd
+
+    numsinlist = lengthoflist(numlist)
 
     randomnum = ' '
 
@@ -50,74 +77,23 @@ def randomize_list(numlist):
 
     return randomnum
 
-    
-'''
-i = 0
-
-randomlist = []
-
-numtoadd = 22
-
-numsinlist = 0
-while True:
-    try:
-        blank = numlist[numsinlist]
-
-    except:
-        break
-
-    numsinlist += 1
-
-j = 0
-
-numscalled = ' '
-
-while j <= maxnum-minnum:
-    
-    randomlist.append(randomize_list(numlist))
-
-    j += 1
-
-numtoadd = 33
-
-numsinlist = 0
-while True:
-    try:
-        blank = randomlist[numsinlist]
-
-    except:
-        break
-
-    numsinlist += 1
-
-j = 0
-
-numscalled = ' '
-
-i = 0
-
-randomrandomlist = []
-
-while j <= maxnum-minnum:
-
-    randomrandomlist.append(randomize_list(randomlist))
-    j += 1'''
 j = 0
 
 numtoadd = 44
 
 numscalled = ' '
 
-numsinlist = 0
-while True:
-    try:
-        blank = randomrandomlist[numsinlist]
+numlist = shuffle_list(shuffle_list(shuffle_list(shuffle_list(shuffle_list(shuffle_list(shuffle_list(numlist)))))))
 
-    except:
-        break
+print(numlist)
 
-    numsinlist += 1
+counter = 0
 
 while True:
     input(randomize_list(numlist))
+
+    if counter >= 5:
+        numlist = shuffle_list(shuffle_list(shuffle_list(shuffle_list(shuffle_list(shuffle_list(shuffle_list(numlist)))))))
+        counter = 0
+    counter += 1
     j += 1
