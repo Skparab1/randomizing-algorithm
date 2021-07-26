@@ -42,3 +42,4 @@
 # Testing 
  - Testing is undergoing to figure out the most efficient number of shuffles per cycle. See a clip below.
 
+ ![](ezgif.com-gif-maker(2).gif)
