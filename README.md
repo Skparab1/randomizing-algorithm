@@ -7,6 +7,8 @@
 
 - **Important: This algorithm IS predictable and not meant for actual use. It will generate varying numbers that may appear to be random, but the are predictable.**
 
+- Also, I'm working on a prototype algorithm that will randomize the list using the same algorithm rather than shuffling it
+
 - Open a pull request or issue if you spot any problems
 
 # how it works
