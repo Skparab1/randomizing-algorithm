@@ -7,7 +7,7 @@
 
 - works better for larger number ranges, for small ranges variation is little
 
-- I'm currently working on an algorithm which does not repeat numbers at all
+- **Important: This algorithm IS predictable and not meant for actual use. It will generate varying numbers that may appear to be random, but the are predictable.**
 
 - Open a pull request or issue if you spot any problems
 
