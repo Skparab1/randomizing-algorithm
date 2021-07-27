@@ -47,6 +47,7 @@
  # Prototype algorithm
  - randomizes the list using the same random picking algorithm rather than shuffling it
  - Is less predictable than original algorithm
+ - should be noted though that prototype algorithm is much slower because when it randomizes it has to do a full scan and search
  ![](Prototype_algorithm.png)
  ![](Random_vs_prototype.png)
 
