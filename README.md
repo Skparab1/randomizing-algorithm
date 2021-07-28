@@ -13,19 +13,18 @@
 
 # how it works
 
-- makes a list of all the integers in the given range
-- shuffles the list a few times by pushing the numbers down
-  - Now there is another algorithm that I added which shuffles this list by pushing all the numbers down by 1. the last number is moved to the start. every 5 number generations, the program will push the list a few times.
-- picks an algorithm decided number from the list
+- Makes a list of all the integers in the given range
+- Shuffles the list a few times by pushing all the numbers down by 1. The last number is moved to the start. Every 5 number generations, the program will push the list a few times.
+- Picks an algorithm decided number from the list
 
-<img src="ezgif.com-gif-maker(1).gif" height="400"> 
+<img src="ezgif.com-gif-maker(1).gif" height="300"> 
 
 # Stats
 
 ## Generations taken for full coverage
 ![](Generations_taken_for_full_coverage_new.png)
 
-- As shown, the algorithm's coverage time is quite comparable
+- As shown, the both our algorithm's and our prototype algorithm's coverage times are quite comparable to the random module's
 
 ## Values generated compared
 ![](Values_generated_compared.png)
