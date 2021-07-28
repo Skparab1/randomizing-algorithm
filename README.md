@@ -23,6 +23,8 @@
 
 # Stats
 
+## Generations taken for full coverage
+
 ## Values generated compared
 ![](Values_generated_compared.png)
 
