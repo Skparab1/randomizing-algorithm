@@ -17,7 +17,7 @@
 - Shuffles the list a few times by pushing all the numbers down by 1. The last number is moved to the start. Every 5 number generations, the program will push the list a few times.
 - Picks an algorithm determined number from the list
 
-<img src="ezgif.com-gif-maker(1).gif" height="300"> <img src="ezgif.com-gif-maker(3).gif" height="300"> The algorithm is much faster than the prototype algorithm
+<img src="ezgif.com-gif-maker(1).gif" height="300"> <img src="ezgif.com-gif-maker(3).gif" height="300">
 
 # Stats
 
