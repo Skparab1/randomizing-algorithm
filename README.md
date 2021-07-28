@@ -24,7 +24,7 @@
 # Stats
 
 ## Generations taken for full coverage
-![](Generations_taken_for_full_coverage.png)
+![](Generations_taken_for_full_coverage_new.png)
 
 - As shown, the algorithm's coverage time is quite comparable
 
