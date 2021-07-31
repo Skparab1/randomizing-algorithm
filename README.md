@@ -22,7 +22,7 @@
 # Stats
 
 ## Generations taken for full coverage
-![](images/Generations_taken_for_full_coverage_new.png)
+![](images/Full_coverage_with_theoretical_best_line.png)
 
 - As shown, the both our algorithm's and our prototype algorithm's coverage times are quite comparable to the random module's
 
