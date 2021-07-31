@@ -47,13 +47,13 @@
 # Testing 
  - Testing is undergoing to figure out the most efficient number of shuffles per cycle. See a clip below.
 
- ![](ezgif.com-gif-maker(2).gif)
+ ![](images/ezgif.com-gif-maker(2).gif)
  
  # Prototype algorithm
  - Our Prototype algorithm randomizes the list using the same random picking algorithm rather than shuffling it.
  - Is less predictable than original algorithm and has few observable patterns.
  - It should be noted that prototype algorithm is much slower because when it randomizes it has to do a full scan, search, and list append.
  
- ![](Prototype_algorithm.png)
+ ![](images/Prototype_algorithm.png)
  ![](Random_vs_prototype.png)
 
