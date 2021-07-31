@@ -55,5 +55,5 @@
  - It should be noted that prototype algorithm is much slower because when it randomizes it has to do a full scan, search, and list append.
  
  ![](images/Prototype_algorithm.png)
- ![](Random_vs_prototype.png)
+ ![](images/Random_vs_prototype.png)
 
