@@ -24,7 +24,7 @@
 ## Generations taken for full coverage
 ![](images/Full_coverage_with_theoretical_best_line.png)
 
-- As shown, the both our algorithm's and our prototype algorithm's coverage times are quite comparable to the random module's
+- As shown, the both our algorithm's and our prototype algorithm's coverage times are quite comparable to the random module's, but still are far from the theoretical best
 
 ## Values generated compared
 ![](images/Values_generated_compared.png)
