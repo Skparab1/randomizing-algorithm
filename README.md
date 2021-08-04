@@ -9,8 +9,6 @@
 
 - Also, I have written prototype algorithm that will randomize the list using the same algorithm rather than shuffling it, which is less predictable, see stats below
 
-- Open a pull request or issue if you spot any problems
-
 # how it works
 
 - Makes a list of all the integers in the given range
