@@ -5,7 +5,7 @@
 
 - Works better for larger number ranges, for small ranges not all numbers are generated
 
-- **Important: This algorithm IS predictable and not meant for actual use. It will generate varying numbers that may appear to be random, but the are predictable.**
+- **Important: This algorithm IS largely predictable and not meant for actual use. It will generate varying numbers that may appear to be random, but the are predictable.**
 
 - Also, I have written prototype algorithm that will randomize the list using the same algorithm rather than shuffling it, which is less predictable, see stats below
 
