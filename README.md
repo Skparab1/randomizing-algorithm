@@ -33,7 +33,7 @@
  ![](images/Values_generated_by_algorithm.png)
  
 - Though the values are mostly scattered, some things should be noted
-  - All values will eventually appear, since the list is being shuffled, but some will appear more than others
+  - All values will eventually appear, since the list is being shuffled, but some will appear more than others, and it will take time for all of the numbers to appear
   - Distinct parabolic shapes can be observed left-top, middle-top, and middle-right.
 
 
